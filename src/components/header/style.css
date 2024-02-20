@@ -1,0 +1,82 @@
+#section1 {
+    background-image: url(/public/assets/img/Screenshot-2024-01-20-at-12.24-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  hr {
+    border-top: 1.5px solid rgb(248, 244, 244);
+  }
+
+  .fontC{
+    font-family: IvyPresto Display;
+    font-size: 64px;
+    font-style: italic;
+    text-align: center;
+      }
+  
+  #section2 {
+    background-color: #121212;
+    /* margin-top: 5px; */
+    position: relative;
+    height: 1200px;
+  }
+  
+  #img {
+    background-image: url(/public/assets/img/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+  }
+  
+  .navbar-custom {
+    background-color: transparent; 
+  }
+
+  .navbar-custom .navbar-brand {
+    color: #fff; 
+  }
+
+  .navbar-custom .navbar-nav {
+    margin-left: auto;
+  }
+
+  .navbar-custom .nav-item {
+    margin-right: 10px;
+  }
+
+  .navbar-custom .nav-link {
+    color: #fff; 
+    transition: color 0.3s; 
+  }
+
+  .navbar-custom .nav-link:hover {
+    color: #365c42;
+  }
+
+  .sign-button {
+    background: linear-gradient(262.97deg, #FFFFFF 5.43%, #BCBCBC 89.84%);
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .sign-button:hover {
+    background: linear-gradient(262.97deg, #BCBCBC 5.43%, #FFFFFF 89.84%);
+    color: #56af72;
+  }
+
+  .navbar-toggler:hover{
+      color: #56af72;
+  }
+
+
+  
+  @media (max-width: 767px) {
+    .sign-button {
+      margin-top: 10px;
+    }
+  }
+

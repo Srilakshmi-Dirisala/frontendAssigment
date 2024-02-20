@@ -1,0 +1,23 @@
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid #007bff; /* Change color as needed */
+  }
+
+  .tab-content {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+
+  .sed{
+      background-color: #000;
+      border-radius: "5px;";
+      border-color: "#464EC7";
+  }
+
+  .value2{
+    background-image: url(/public/assets/img/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+  }
